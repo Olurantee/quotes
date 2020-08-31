@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quote</title>
+    <style>
+        .quotecard{
+            padding: 50px;
+            margin-top: 100px;
+            margin-left: 350px; 
+            width: 600px; 
+            height: 300px;
+            background-color: black;
+            color: white;
+
+        }
+        #quotes{
+            font-family: monospace;
+            font-size: 30px;
+            color: blanchedalmond;
+        }
+        #author{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+        }
+        #myBtn{
+            margin-left: 50px;
+            width: 150px; 
+            height: 70px;
+            background-color: yellow; 
+            color: black;
+            font-family: monospace;
+
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <div class="quotecard">
+         <h2 id="quotes"></h2>
+         <i><h4 id="author"></h4></i>
+        </div> 
+        <button id="myBtn">Change Quote</button>
+    </div>
+
+        
+    <script src="js/quote.js"></script>
+</body>
+</html>
